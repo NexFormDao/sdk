@@ -1,0 +1,14 @@
+
+{
+  "name": "nexform",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && node src/index.js",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
+```
